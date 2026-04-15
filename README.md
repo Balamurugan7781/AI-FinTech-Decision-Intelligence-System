@@ -19,4 +19,5 @@ User Input → Feature Processing → PD Model → Financial Engine → Decision
 
 ##  How to run
 pip install -r requirements.txt
+
 streamlit run streamlit_app.py 
