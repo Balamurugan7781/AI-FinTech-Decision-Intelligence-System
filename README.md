@@ -56,7 +56,7 @@ Where:
 
 - Python  
 - Streamlit  
-- SQLite  
+- SQLAlchemy
 - (Upcoming) FastAPI  
 
 ---
