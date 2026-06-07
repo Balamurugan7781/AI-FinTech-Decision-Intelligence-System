@@ -1,68 +1,71 @@
-# AI Fintech Decision Intelligence System
+# AI FinTech Decision Intelligence System
 
-A production-style AI system that evaluates loan applications using probability of default (PD) modelling and financial decision logic.
+An end-to-end AI-powered FinTech platform that combines:
 
----
-
-## 🚧 Status
-
-Work in Progress — Enhancing system with API integration, improved modelling, and deployment capabilities.
-
----
-
-## 🏗️ System Architecture
-
-User Input → Feature Processing → PD Model → Financial Engine → Decision Engine → Explanation
+- Credit Risk Analytics
+- Portfolio Analytics
+- Probability of Default (PD) Modeling
+- Decision Intelligence
+- LLM-to-SQL
+- RAG-based Policy Intelligence
 
 ---
 
-## ⚙️ Core Logic
+## Architecture
 
-### 1. Probability of Default (PD)
-- Estimated using borrower features such as credit score and income
-- Higher credit score → lower PD  
-- Higher income → lower PD  
-
----
-
-### 2. Financial Evaluation
-
-- Expected Loss = PD × Loan Amount × LGD  
-- Expected Profit = Interest Rate × Loan Amount × (1 - PD)  
-
-Where:
-- LGD = Loss Given Default (assumed recovery-adjusted loss)
-
----
-
-### 3. Decision Engine
-
-- APPROVED → Low risk and profitable  
-- REVIEW → Moderate risk  
-- REJECTED → High risk  
+Customer Data
+      ↓
+SQLAlchemy Database
+      ↓
+Analytics Layer
+      ↓
+ML Risk Models
+      ↓
+Decision Engine
+      ↓
+LLM-to-SQL
+      ↓
+Business Insights
+      ↓
+RAG Policy Intelligence
 
 ---
 
-## 🚀 Features
+## Current Features
 
-- Probability of Default (PD) modelling  
-- Risk vs profit evaluation  
-- Explainable decision outputs  
-- Modular system design  
+✅ Lending Database Design
+
+✅ SQLAlchemy ORM
+
+✅ Synthetic Lending Data Generator
+
+✅ Portfolio Analytics
+
+🔄 Risk Analytics
+
+⏳ Probability of Default Model
+
+⏳ Decision Engine
+
+⏳ LLM-to-SQL
+
+⏳ RAG Integration
 
 ---
 
-## 🛠️ Tech Stack
+## Technology Stack
 
-- Python  
-- Streamlit  
+- Python
 - SQLAlchemy
-- (Upcoming) FastAPI  
+- SQLite
+- Pandas
+- Scikit-learn
+- FastAPI
+- LangChain
+- RAG
 
 ---
 
-## ▶️ How to Run
+## Project Status
 
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py
+Active Development
