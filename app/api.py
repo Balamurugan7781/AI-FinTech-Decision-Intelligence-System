@@ -1,6 +1,14 @@
 """
-FastAPI layer for serving the decision system.
+API Layer for the AI FinTech Decision Intelligence System.
 
-Status: Not implemented yet.
-Planned: Will expose endpoints for real-time loan evaluation.
+Planned Endpoints:
+- Portfolio Analytics
+- Risk Analytics
+- Credit Risk Predictions
+- LLM-to-SQL Queries
+- Policy Intelligence Queries
+
+Implementation will use FastAPI.
 """
+
+# Future FastAPI implementation
