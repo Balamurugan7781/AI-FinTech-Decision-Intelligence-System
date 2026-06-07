@@ -13,22 +13,26 @@ An end-to-end AI-powered FinTech platform that combines:
 
 ## Architecture
 
-Customer Data
-      ↓
-SQLAlchemy Database
-      ↓
-Analytics Layer
-      ↓
-ML Risk Models
-      ↓
-Decision Engine
-      ↓
-LLM-to-SQL
-      ↓
-Business Insights
-      ↓
-RAG Policy Intelligence
+```mermaid
+flowchart TD
 
+A[Customer Data]
+B[SQLAlchemy Database]
+C[Analytics Layer]
+D[ML Risk Models]
+E[Decision Engine]
+F[LLM-to-SQL]
+G[Business Insights]
+H[RAG Policy Intelligence]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+```
 ---
 
 ## Current Features
